@@ -56,15 +56,23 @@
 		0474654B2490EF6B002810B1 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				0474654C2490EF6B002810B1 /* AppDelegate.swift */,
-				0474654E2490EF6B002810B1 /* SceneDelegate.swift */,
 				047465502490EF6B002810B1 /* ViewController.swift */,
 				047465522490EF6B002810B1 /* Main.storyboard */,
 				047465552490EF6D002810B1 /* Assets.xcassets */,
-				047465572490EF6D002810B1 /* LaunchScreen.storyboard */,
+				047465602490FE0F002810B1 /* Supporting files */,
 				0474655A2490EF6D002810B1 /* Info.plist */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		047465602490FE0F002810B1 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0474654C2490EF6B002810B1 /* AppDelegate.swift */,
+				0474654E2490EF6B002810B1 /* SceneDelegate.swift */,
+				047465572490EF6D002810B1 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
