@@ -61,6 +61,14 @@ class PlayingCardView: UIView {
     }
     
     
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        setNeedsDisplay()
+        setNeedsLayout()
+    }
+    
+    
+    
+    
     override func layoutSubviews() {
           super.layoutSubviews()
           
@@ -69,7 +77,7 @@ class PlayingCardView: UIView {
           
           configureCornerLabel(lowerRightCornerLabel)
           lowerRightCornerLabel.transform = CGAffineTransform.identity
-          .translatedBy(x: lowerRightCornerLabel.bounds.width, y: lowerRightCornerLabel.bounds.height)
+          .translatedBy(x: lowerRightCornerLabel.bounds.width, y: lowerRightCornerLabel.bounds.height) //tanslate down and rotate
           .rotated(by: CGFloat.pi)
           
           lowerRightCornerLabel.frame.origin = CGPoint(x: bounds.maxX, y: bounds.maxY)
