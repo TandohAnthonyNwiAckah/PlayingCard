@@ -22,6 +22,11 @@
                                     <constraint firstAttribute="width" priority="750" constant="600" id="0JF-Tf-5j3"/>
                                     <constraint firstAttribute="width" secondItem="5pD-eg-ZmH" secondAttribute="height" multiplier="5:8" id="1UZ-rc-vUH"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
