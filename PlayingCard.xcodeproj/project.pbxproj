@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04327E3D249565EE00B305D1 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04327E3C249565EE00B305D1 /* PlayingCardView.swift */; };
 		0474654D2490EF6B002810B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474654C2490EF6B002810B1 /* AppDelegate.swift */; };
 		0474654F2490EF6B002810B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474654E2490EF6B002810B1 /* SceneDelegate.swift */; };
 		047465512490EF6B002810B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047465502490EF6B002810B1 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04327E3C249565EE00B305D1 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		047465492490EF6B002810B1 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0474654C2490EF6B002810B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0474654E2490EF6B002810B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				047465502490EF6B002810B1 /* ViewController.swift */,
+				04327E3C249565EE00B305D1 /* PlayingCardView.swift */,
 				0474656124910210002810B1 /* CardPlay.swift */,
 				0474656324911272002810B1 /* CardDeck.swift */,
 				047465522490EF6B002810B1 /* Main.storyboard */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047465512490EF6B002810B1 /* ViewController.swift in Sources */,
+				04327E3D249565EE00B305D1 /* PlayingCardView.swift in Sources */,
 				0474656424911272002810B1 /* CardDeck.swift in Sources */,
 				0474656224910210002810B1 /* CardPlay.swift in Sources */,
 				0474654D2490EF6B002810B1 /* AppDelegate.swift in Sources */,

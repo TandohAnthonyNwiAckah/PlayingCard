@@ -19,11 +19,8 @@ class ViewController: UIViewController {
            if let card = deck.draw(){
                 print("\(card)")
             }
-        }
-        
-        
+        }    
     }
-
 
 }
 
