@@ -23,12 +23,22 @@ class ViewController: UIViewController {
             
             playingCardView.addGestureRecognizer(swipe)
             
-    
+            let pinchSelector = #selector(playingCardView.adjustFaceCardScale(byHandlingGestureRecognizerBy:))
+                    let pinch = UIPinchGestureRecognizer(target: playingCardView, action: pinchSelector)
+                    playingCardView.addGestureRecognizer(pinch)
+            
+
         }
         
     }
     
-    
+    // uase option plus mouse direction to flip the cars
+    @IBAction func flipCard(_ sender: UITapGestureRecognizer) {
+                switch sender.state {
+                case .ended: playingCardView.isFaceUp = !playingCardView.isFaceUp
+                default: break
+                }
+    }
     
     
     @objc func nextCard() {
